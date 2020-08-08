@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #eaeaee;
+  background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+}
+
+.title-container {
+  padding: 20px;
+}
+
+.title-container h2 {
+  padding-top: 10px;
+}
+
+div.tooltip {
+  width: 130px;
+  padding: 10px;
+  font: 12px sans-serif;
+  background: rgba(250, 250, 252, 0.966);
+  box-shadow: 1px 1px 10px;
+  border: 0px;
+  border-radius: 8px;
+}
